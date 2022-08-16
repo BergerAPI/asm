@@ -1,0 +1,5 @@
+main: asm.o
+	gcc -m64 -no-pie -o j asm.o
+
+asm.o:
+	nasm -f elf64 src/hello_world.asm -o asm.o
