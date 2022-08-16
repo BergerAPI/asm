@@ -21,7 +21,7 @@ extern printf
 
 global main
 
-str: db '%c', 0                                    ; The format to print the characters
+str: db '%c', 0                                     ; The format to print the characters
 nl: db 0xa, 0                                       ; Just stores a new-line character
 
 main:
